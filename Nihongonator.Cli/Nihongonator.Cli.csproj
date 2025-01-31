@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0-windows7.0</TargetFramework>
+    <StartupObject>Nihongonator.Cli.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MeCab.DotNet" Version="0.0.26" />
+    <PackageReference Include="Nito.AsyncEx" Version="5.0.0" />
+    <PackageReference Include="Wacton.Desu" Version="5.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Apoc.AnkiClient\Apoc.AnkiClient.csproj" />
+    <ProjectReference Include="..\Apoc.Parser\Apoc.Utils.csproj" />
+  </ItemGroup>
+
+</Project>

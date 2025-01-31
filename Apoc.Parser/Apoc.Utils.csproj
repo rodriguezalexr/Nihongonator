@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="26.0.1" />
+    <PackageReference Include="MeCab.DotNet" Version="0.0.26" />
+    <PackageReference Include="Wacton.Desu" Version="5.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Apoc.AnkiClient\Apoc.AnkiClient.csproj" />
+  </ItemGroup>
+
+</Project>
