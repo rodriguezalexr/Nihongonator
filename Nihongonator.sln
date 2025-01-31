@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nihongonator.Cli", "Nihongo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apoc.AnkiClient", "Apoc.AnkiClient\Apoc.AnkiClient.csproj", "{C84217CE-650C-4BEB-9D71-4B7F98C3ABBF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apoc.Utils", "Apoc.Parser\Apoc.Utils.csproj", "{520D70A7-CFDC-4CD6-AEDF-64D1A9F6823D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apoc.Utils", "Apoc.Utils\Apoc.Utils.csproj", "{520D70A7-CFDC-4CD6-AEDF-64D1A9F6823D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
